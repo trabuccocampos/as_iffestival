@@ -1,0 +1,12 @@
+
+// Production
+@include font-face("dia", "../../fonts/DiaLight", 200, normal, $file-formats: eot woff);
+@include font-face("dia", "../../fonts/DiaRegular", 400, normal, $file-formats: eot woff);
+@include font-face("dia", "../../fonts/DiaBold", 600, normal, $file-formats: eot woff);
+@include font-face("dia", "../../fonts/DiaBlack", 900, normal, $file-formats: eot woff);
+
+// Development
+// @include font-face("dia", "../fonts/DiaLight", 200, normal, $file-formats: eot woff);
+// @include font-face("dia", "../fonts/DiaRegular", 400, normal, $file-formats: eot woff);
+// @include font-face("dia", "../fonts/DiaBold", 600, normal, $file-formats: eot woff);
+// @include font-face("dia", "../fonts/DiaBlack", 900, normal, $file-formats: eot woff);

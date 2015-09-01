@@ -1,0 +1,210 @@
+::selection {
+  color: white;
+  background-color: color($pink, 400);
+}
+html,
+body {
+  background-color: $color-bg;
+}
+header {
+  margin-bottom: $base-spacing*2;
+
+  @include media($mobile) {
+    margin-bottom: $base-spacing;
+  }
+}
+.logo {
+  @include span-columns(2);
+
+  div {
+    @include svg-wrap();
+    padding-bottom: 30%;
+  }
+  svg {
+    @include svg();
+  }
+
+  @include media($tablet) {
+    @include span-columns(2);
+  }
+  @include media($mobile) {
+    width: 60%;
+    margin: 1em auto .6em;
+    float: none;
+  }
+}
+.logo--mark {
+  @include soft-transition();
+  fill: white;
+}
+
+// Main Blocks
+.main,
+header {
+  @include outer-container();
+  @include pad();
+}
+.main {
+  padding-top: 0;
+  min-height: 65vh;
+}
+
+// Navigation
+header:hover {
+  .logo--mark--quotes {
+    @include soft-transition();
+    @include animation--spin(2s);
+    transform-origin: 50% 50%;
+    fill: $color-strong;
+  }
+}
+  nav ul {
+    float: right;
+
+    @include media($mobile) {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+  }
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+    nav li a.active {
+      border-bottom: 2px dotted $color-main;
+      padding-bottom: .5em;
+    }
+
+// Buttons
+.btn {
+  // border: 3px solid $color-main;
+  @include soft-transition();
+  // background: color($pink, a400);
+  border: 3px solid $color-accent;
+  padding: .3em .5em .35em;
+  border-radius: 0.3em;
+
+  font-size: 1.5em;
+  color: $color-main;
+  white-space:nowrap;
+
+  &:hover {
+    background: $color-accent;
+    // background: white;
+    // color: color($pink, a400);
+    color: white;
+  }
+}
+
+.btn--lg {
+  padding: .6em 2em .65em;
+}
+
+// Typography
+h1 {
+  font-size: 3.5em;
+  font-weight: 900;
+}
+h1.opening__title {
+  text-align: center;
+  margin-bottom: 0.3em;
+  // display: none;
+
+  // opt 2
+  font-size: .7em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 1em;
+  // font-weight: bold;
+
+}
+h2 {
+  margin-bottom: .15em;
+  margin-top: 0;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+// Introductury quote
+h2.opening__quote {
+  @include span-columns(10);
+  @include shift(1);
+  font-size: 2em;
+  line-height: 1.15em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: $base-spacing;
+
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: $base-spacing/2;
+
+  @include media($mobile) {
+    font-size: 2em;
+    @include span-columns(4);
+    @include shift(0);
+  }
+
+  &:before {
+    content: "\201C";
+    margin-right: -8px;
+  }
+
+  &:after {
+    content: "\201D";
+    margin-left: -8px;
+  }
+}
+
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.6em;
+  margin-bottom: 0;
+}
+
+.about__description {
+  @include span-columns(8);
+  @include shift(2);
+
+  img {
+    margin: $base-spacing auto;
+  }
+
+  @include media($mobile) {
+    @include span-columns(4);
+    @include shift(0);
+  }
+}
+
+// Links
+a.link {
+  @include soft-transition();
+  color: $color-secondary;
+  border-bottom: 1px dotted $color-secondary-soft;
+  padding-bottom: .2em;
+
+  &:after {
+    content: "\2003\2003\2192";
+    opacity: 0;
+    margin-left: -1.2em;
+    border-bottom: 0;
+  }
+
+  &:hover {
+    background-color: $color-main;
+    border-bottom-color: transparentize($color-accent, 1);
+    color: $color-accent;
+    padding: .5em .8em .4em;
+
+    &:after {
+      @include soft-transition();
+      color: $color-accent;
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.attend {
+}
+  .attend__title {
+    text-align: center;
+  }
+  .attend__description {
+    @include span-columns(10);
+    @include shift(1);
+    margin-bottom: 2em;
+  }
+  .attend__action {
+    display: block;
+    text-align: center;
+  }
+
+  // directions
+  .directions__title {
+    margin-top: 2em;
+    margin-bottom: .5em;
+  }
+  .directions__map {
+    @include span-columns(12);
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+    .directions__map iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }

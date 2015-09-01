@@ -1,0 +1,10 @@
+Title: Sorry!
+
+----
+
+Text: 
+
+## We couldn't find what you're looking for!
+Oops — we have no idea where we put that page.
+
+(link: / text: Go back to the home page)

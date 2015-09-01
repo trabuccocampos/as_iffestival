@@ -1,0 +1,14 @@
+$categories: (
+  typography: color($blue, 600),
+  editorial: color($green, 600),
+  identity: color($cyan, a700),
+  web: color($pink, a400),
+  interactive: color($amber, 700),
+  infographics: color($deep-orange, 500)
+);
+
+@each $category, $color-text in $categories {
+  .project__category--#{$category} {
+    color: $color-text;
+  }
+}

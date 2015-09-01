@@ -1,0 +1,61 @@
+// Typography
+$base-font-family: "Dia", sans-serif;
+$heading-font-family: "Dia", sans-serif;
+
+// Font Sizes
+$base-font-size: 20px;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$color-bg: white;
+$color-main: color($green, 800);
+$color-main-soft: color($green, 500);
+$color-secondary: color($green, 700);
+$color-accent: color($orange, 400);
+$color-accent: $color-main-soft;
+
+// Colors 2
+$color-bg: white;
+$color-main: color($grey, 800);
+$color-main-soft: color($grey, 500);
+$color-secondary: color($grey, 700);
+$color-accent: color($orange, 400);
+
+// Colors opt 2 / dark-grey
+$color-bg: #1d262b;
+$color-main: color($grey, 100);
+$color-main-soft: color($grey, 200);
+$color-secondary: color($grey, 300);
+$color-secondary-soft: color($grey, 400);
+$color-accent: #074c7a;
+$color-strong: color($pink, a400);
+
+// // Colors opt 3 / blue
+// $color-bg: color($cyan, 700);
+// $color-main: white;
+// $color-main-soft: color($cyan, 100);
+// $color-secondary: color($cyan, 200);
+// $color-accent: color($cyan, a200);
+// $color-accent: $color-main-soft;
+
+// Font Colors
+$base-background-color:  $color-bg;
+$base-font-color:  $color-main;
+$action-color:  $color-secondary;
+
+// Border
+$base-border-color: $color-main;
+$base-border: 1px solid $base-border-color;
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);

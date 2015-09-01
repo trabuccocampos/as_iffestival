@@ -1,0 +1,143 @@
+Title: Advisory
+
+----
+
+Advisors: 
+
+- 
+  name: Zach Booth
+  role: Actor
+  highlights: Damages,Keep The Lights On
+  description: "Zach Booth is best known for his role opposite Glenn Close on the hit TV show, Damages. Zach is a New-York-based actor with extensive credits -- both on stage and on screen. This fall he will star in South of Hell for WEtv, produced by Eli Roth. Off-Broadway, Zach has premiered new works by Edward Albee (Me, Myself, & I) and Craig Lucas (Prayer for My Enemy). Most recently, he made his Broadway debut in The Winslow Boy. His films include Keep The Lights On, Last Weekend, Dark Horse, Nick and Norah's Infinite Playlist, and White Irish Drinkers."
+- 
+  name: Sharon Chantiles
+  role: Casting Director
+  highlights: film,national TV
+  description: >
+    Sharon Chantiles is a partner in
+    Chantiles Vigneault Casting (est. 1993),
+    which casts for film, TV, theatre,
+    commercials, industrials, and real
+    people. Recent projects include an
+    80-episode web series, a soccer
+    documentary, a short film for Quebec
+    Tourism, and innumerable commercials
+    that include Coca-Cola, Disney, Verizon,
+    Nikon, Samsung, Toyota, Ford, Blackrock
+    and Bud Light. Prior to casting, Sharon
+    worked professionally as an actress with
+    memberships in SAG/AFTRA and AEA. In
+    addition, she coaches actors and
+    professionals in other fields for
+    on-camera work and personal appearances.
+- 
+  name: Julie Cohen
+  role: Director/Producer
+  highlights: The Sturgeon Queens
+  description: 'Julie Cohen is the director and producer of 11 documentaries, most recently The Sturgeon Queens (official selection, 2015 Berlinale; winner, nine Audience Choice awards) and I Live To Sing (2014 NY Emmy: Best Arts Program; Opening Night Film, American Documentary Film Festival). Before starting BetterThanFiction, her own production company, in 2008, Julie was a longtime staff producer at NBC News. She graduated from the Columbia University Graduate School of Journalism where she is now an adjunct professor.'
+- 
+  name: Lawrence Frascella
+  role: Film Critic/Historian
+  highlights: Live Fast Die Young
+  description: "Lawrence Frascella is the co-author of Live Fast Die Young, the seminal book on the film Rebel Without a Cause. He has been a film critic, historian and interviewer for many years for a multitude of publications including US, Rolling Stone, Entertainment Weekly and Harper's Bazaar, and he served as an editor at Aperture. Lawrence has interviewed a vast array of subjects ranging from Martin Scorsese to Jim Jarmusch to Nora Ephron. He is currently working on a new book. Lawrence lives in Irvington."
+- 
+  name: 'Dan Geller & Dayna Goldfine'
+  role: Producer/Director
+  highlights: The Galapagos Affair,Ballets Russes
+  description: 'Dan Geller and Dayna Goldfine are Emmy-award-winning directors/producers who have jointly created critically-acclaimed, multi-character documentary narratives. The Galapagos Affair: Satan Came to Eden had a worldwide theatrical run in 2014; the award-winning Something Ventured premiered at SXSW, went on to play at festivals internationally, and was broadcast nationwide on PBS. Their work also includes Ballet Russes (2005) -- which was recognized as one of the top five documentaries of 2005 by both the National Society of Film Critics and the National Board of Review, and appeared on a dozen critical “10 Best Films” lists including those of Time Magazine, The Los Angeles Times, The Hollywood Reporter, The San Francisco Chronicle and Slate.'
+- 
+  name: Naomi Geraghty
+  role: Film Editor
+  highlights: In America,Hotel Rwanda,The Illusionist
+  description: >
+    Naomi Geraghty is a film editor who has
+    edited Oscar nominated films such as In
+    America, Hotel Rwanda and The
+    Illusionist. She is also known for her
+    work on Limitless, starring Bradley
+    Cooper and Robert De Niro. Other feature
+    film credits include The Lucky Ones
+    starring Rachel Mc Adams, Reservation
+    Road starring Joaquin Phoenix and Mark
+    Ruffalo, and the upcoming movie Pele.
+    Naomi has recently cut dramas such as
+    Treme created by David Simon, and Emmy
+    nominated Bloodline. She is currently
+    working on Billions starring Damien
+    Lewis and Paul Giamatti which is due to
+    debut on Showtime in 2016. Originally
+    from Dublin, Ireland, Naomi now resides
+    in Brooklyn.
+- 
+  name: Jeff Gordinier
+  role: Writer
+  highlights: New York Times
+  description: >
+    Jeff Gordinier has written about pop
+    culture, politics, poetry, and food for
+    more than 25 years. He is on staff at
+    The New York Times, and his work has
+    appeared in publications including
+    Details, Outside, T, Esquire, GQ,
+    Creative Nonfiction, Entertainment
+    Weekly, Spin, Elle, The Los Angeles
+    Times, Fortune, The New York Times Book
+    Review, and Poetry Foundation. Jeff is
+    the author of the 2008 book X Saves the
+    World and co-editor (with Marc
+    Weingarten) of the 2015 essay collection
+    "Here She Comes Now." Jeff has lived in
+    Irvington since 2000.
+- 
+  name: Dana Kuznetzkoff
+  role: Producer
+  highlights: Boardwalk Empire,The Wire
+  description: 'Dana Kuznetzkoff is the founder of Fourth Agreement, a film and TV production company whose mission is to create unique films that inspire and entertain. She has led diverse projects from HBO’s pilot episode of Boardwalk Empire to acclaimed series The Wire, and was the co-producer of NBC’s Smash. Currently, Dana is one of the producers of the series The New Yorker Presents. She produced the award-winning documentary Thread, which focuses on women in Afghanistan, and is developing a series about the hidden history of the women of World War II based on the book “We Band of Angels.” Dana serves on the Executive Committee of the Producers Guild of America, and is a member NY Women in Film & Television and the Directors Guild.'
+- 
+  name: Joe Landauer
+  role: Film Editor
+  highlights: >
+    About Ray,Me Him Her,Safety Not
+    Guaranteed
+  description: "Joe Landauer edited About Ray, Me Him Her, Gods Behaving Badly, Ceremony, Friends With Kids, and Safety Not Guaranteed, which was nominated for the Grand Jury Prize at the 2012 Sundance Film Festival. Joe started his career working as an assistant editor on features such as Cop Land, The Boxer, and Signs, and was the visual effects editor on Jonathan Demme's The Manchurian Candidate. Joe cut Terry George’s short film, The Shore, which won the Oscar for Best Short Live Action Film in 2012. Other credits as film editor include Sherrybaby, The Cake Eaters, and Teeth for which its star Jess Weixler won the Special Jury Prize for Dramatic Performance at Sundance. Joe was co-editor of Jonathan Demme's documentary, Marley."
+- 
+  name: Dan Shefelman
+  role: Cartoonist/Animator
+  highlights: 'Ice Age (1 & 2),Robots,Epic'
+  description: 'Dan Shefelman is a cartoonist and animator. He directs, designs, writes and storyboards for animation.  Dan is a professor at Fashion Institute of Technology’s School of Art and Design, and lives in Irvington. His credits as artist/writer include: Ice Age (1&2), Robots, Epic (Blue Sky Studios/Fox Animation), Doug (Nickelodeon), Beavis and Butt-Head Do America (MTV/Paramount Pictures), Celebrity Deathmatch/The Head (MTV Animation), Red and Blue (CNN), King of the Hill (Fox TV), Venture Brothers (Adult Swim), Funny Money (comic strip) and editorial cartoons (New York Newsday).'
+- 
+  name: Marc Smerling
+  role: Producer/Screenwriter
+  highlights: Catfish,The Jinx
+  description: 'Marc Smerling is a film producer, screenwriter and cinematographer. He shot, co-wrote and produced The Jinx: The Life and Deaths of Robert Durst, a six-part 2015 HBO documentary, nominated for nine Emmy Awards. He co-produced and shot Capturing the Friedmans, the 2003 Grand Jury Prize winner at the Sundance Film Festival and Oscar nominee for Best Documentary. He is co-producer of the 2010 documentary, Catfish, as well as Catfish: The TV Show. Marc is a partner in Hit The Ground Running Films, a TV and motion picture development/production company in NYC, and was founder and executive producer of Notorious Pictures, producing and directing TV commercials, music videos, concert films, documentaries and series for broadcast.'
+- 
+  name: Sarah Wynter
+  role: Actor
+  highlights: Bride of the Wind,24
+  description: >
+    SARAH WYNTER has been working in film
+    and TV for over 15 years. Her film
+    credits include the lead role in Bruce
+    Beresford’s Bride of the Wind, for
+    which she received critical praise, The
+    6th Day, and Lost Souls directed by
+    Academy Award-winner Janusz Kaminski.
+    Her independent film credits include
+    Coastlines, Shooting Livien, and Three
+    Dollars. Sarah played Kiefer
+    Sutherland’s love interest, Kate
+    Warner, on 24, for which she received a
+    SAG nomination. In 2006, she starred in
+    NBC’s Windfall. Other television
+    credits include Flight of the Concords,
+    Sex and the City, Damages, Person of
+    Interest and Blue Bloods. Sarah
+    guest-starred in a recurring role in
+    Showtime’s Californication and starred
+    in NBC’s 2015 drama American Odyssey.
+    Born and raised in Australia, Sarah
+    moved to the U.S. in 1995.
+
+----
+
+Quote: As iFF only Hollywood calls the shots

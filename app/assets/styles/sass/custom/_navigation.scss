@@ -1,0 +1,66 @@
+.nav {
+	margin-top: 5px;
+	@include outer-container;
+}
+.nav__logo img {
+	height: 100px;
+	width: auto;
+	text-decoration: none;
+	border-bottom: 0;
+}
+.nav ul {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav li {
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 40px;
+	height: 40px;
+	margin-right: 15px;
+}
+.nav li li:first-child {
+	margin-left: 15px;
+}
+.nav li li:last-child {
+	margin-right: 0;
+}
+.nav a {
+	color: white;
+	border-bottom: 1px solid white;
+	text-decoration: none;
+    transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+
+
+.nav__btn-menu  {
+	padding: .5em;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+
+	@include media($medium-screen) {
+		display: none;
+	}
+}
+
+.burger-icon { 
+	@include burger(25px, 3px, 4px, #999, 2px);
+}
+
+.nav__btn-menu.is-active .burger-icon {
+	@include burger-to-cross;
+}

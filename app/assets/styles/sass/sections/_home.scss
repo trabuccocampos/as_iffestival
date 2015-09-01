@@ -1,0 +1,80 @@
+.intro {
+  @include span-columns(10);
+  @include shift(1);
+
+  @include media($mobile) {
+    @include span-columns(4);
+    @include shift(0);
+  }
+}
+  .intro__opening {
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.1;
+    margin-top: 7vh;
+    p {
+      text-align: center;
+    }
+    em {
+      font-weight: 200;
+      font-style: normal;
+    }
+    strong {
+      font-weight: 900;
+    }
+    @include media($tablet) {
+      font-size: 2em;
+    }
+    @include media($mobile) {
+      font-size: 1.5em;
+    }
+
+  }
+
+.event {
+  @include span-columns(10);
+  @include shift(1);
+  margin-top: 6vh;
+  margin-bottom: $base-spacing*4;
+  text-align: center;
+
+  @include media($tablet) {
+    @include span-columns(8);
+    @include shift(0);
+    margin-top: $base-spacing*2;
+    margin-bottom: $base-spacing*3;
+  }
+}
+  .event__date {
+    font-size: 1.3em;
+    line-height: 1.1em;
+    font-weight: 600;
+    color: $color-secondary;
+  }
+  .event__callout a {
+    // font-weight: bold;
+    padding-bottom: .2em;
+    border-bottom: 1px solid $color-secondary;
+  }
+
+.home__callout {
+  @include span-columns(6);
+  @include shift(3);
+  text-align: center;
+
+  a {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: $base-spacing;
+  }
+
+  @include media($tablet) {
+    @include span-columns(6);
+    @include shift(1);
+  }
+  @include media($mobile) {
+    @include span-columns(4);
+    @include shift(0);
+  }
+}

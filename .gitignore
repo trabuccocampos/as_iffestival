@@ -1,0 +1,8 @@
+node_modules
+bower_components
+app/site/config/config.php
+app/thumbs
+app/kirby
+app/panel
+app/site/fields
+app/assets/fonts

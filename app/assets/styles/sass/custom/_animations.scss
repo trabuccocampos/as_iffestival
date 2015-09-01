@@ -1,0 +1,14 @@
+@include keyframes(quotes-spin) {
+  from {
+    @include transform(rotate(0));
+  }
+  to {
+    @include transform(rotate(360deg));
+  }
+}
+
+@mixin animation--spin($speed) {
+  @include animation(quotes-spin $speed ease-in-out);
+  @include animation-iteration-count(infinite);
+  @include animation-fill-mode(forwards);
+}

@@ -1,0 +1,55 @@
+/**
+ * CONTENTS
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ *
+ * TOOLS
+ * Bourbon...............Simple and lightweight Sass mixin library.
+ * Neat...............Lightweight semantic grid.
+ * Settings...............Grid settings for Neat.
+ * Mixin...............Useful mixins: v-align, omega reset, transitions.
+ * SVG...............essential for responsive inline SVG.
+ *
+ * SETTINGS
+ * Colors...............Color definitions.
+ * Base...............Globally-available variables and config.
+ *
+ * OBJECTS
+ * Design Categories........Colors and settings for tags.
+ * nprogress.css........Slim progress bars for Ajax'y applications.
+ *
+ * COMPONENTS
+ * Global.............Global settings.
+ * Page-home............The main homepage layout.
+ * Advisory............Advisory board.
+ *
+ *
+ */
+
+@import "vendor/normalize";
+
+// Tools
+@import "bourbon";
+@import "neat";
+@import "base/grid-settings";
+@import "custom/mixin";
+@import "custom/dia";
+@import "custom/svg";
+
+// Settings
+@import "custom/colors";
+@import "base/base";
+
+// Objects
+@import "custom/design-categories";
+@import "vendor/nprogress";
+@import "custom/animations";
+
+// Components
+@import "global";
+@import "sections/footer";
+@import "sections/home";
+@import "sections/attend";
+@import "sections/advisory";
+@import "sections/submit";

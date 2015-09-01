@@ -1,0 +1,60 @@
+.advisory {
+}
+  .advisory__title {
+    text-align: center;
+  }
+  .advisory__list {
+  }
+    .advisor {
+      @include span-columns(4);
+      @include omega(3n);
+
+      @include pad(.75em 1.15em 1.75em);
+      margin-bottom: $base-spacing;
+
+      @include media($tablet) {
+        @include span-columns(4);
+        @include omega-reset(3n);
+        @include omega(2n);
+      };
+      @include media($mobile) {
+        @include span-columns(4);
+        @include omega-reset(2n);
+      };
+
+      @for $i from 1 to 13 {
+      // assign colors from $flex-box-top-colors list
+       &:nth-child(#{$i}) {
+         $color-from-list: nth($flex-box-top-colors, $i);
+        //  border-top: 9px solid $color-from-list;
+         background: transparentize($color-from-list, .1);
+       }
+      }
+      background: transparentize($color-main, .1);
+      color: $color-bg;
+    }
+      .advisor--role {
+        text-transform: uppercase;
+        font-size: .75em;
+        letter-spacing: 1px;
+        font-weight: 500;
+      }
+      .advisor--highlights {
+        margin-bottom: 0.3em;
+        line-height: 1.6em;
+      }
+        .advisor--highlights__single {
+          display: inline;
+          background: transparentize($color-bg, .6);
+          padding: 0.3em .5em .3em;
+          font-size: .9em;
+          color: $color-secondary;
+          white-space:nowrap;
+        }
+      .advisor--description {
+        font-size: 16px;
+
+        @include media($mobile) {
+          display: none;
+        };
+      }
