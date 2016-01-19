@@ -7,6 +7,12 @@ fields:
   title:
     label: Title
     type:  text
+  coverImg:
+    label: Cover Image
+    type:  selector
+    mode:  single
+    types:
+      - image
   eventDate:
     label: Event Date
     type: text

@@ -2,7 +2,10 @@ Title: Home
 
 ----
 
-Text: A NY festival dedicated to the *short films* of the future’s **biggest&nbsp;filmmakers**
+Text: 
+
+a love letter
+*(not necessarily romantic)*
 
 ----
 
@@ -19,3 +22,7 @@ Attend: Get tickets
 ----
 
 Submit: Submit your film &rarr;
+
+----
+
+Coverimg: web_as_iff_20160217.png

@@ -9,8 +9,8 @@ password: >
 language: en
 role: admin
 history:
+  - home
   - program
   - about
   - advisory
   - submit
-  - attend

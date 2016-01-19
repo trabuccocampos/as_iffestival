@@ -54,7 +54,7 @@
       </section>
       <section class="footer__copyright">
         <?php echo kirbytext($site->copyright()) ?>
-        <p class="footer__copyright--address">85 Main Street, Irvington NY</p>
+        <p class="footer__copyright--address">A NY festival dedicated to the <span style="font-weight:100">short films</span> of the future’s <b>biggest filmmakers</b></p>
       </section>
       <section class="designby">
         designed &amp; coded by <a href="http://www.trabuc.co" target="_blank" class="link">Trabucco-Campos</a>
