@@ -15,21 +15,6 @@ $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
-// Colors
-$color-bg: white;
-$color-main: color($green, 800);
-$color-main-soft: color($green, 500);
-$color-secondary: color($green, 700);
-$color-accent: color($orange, 400);
-$color-accent: $color-main-soft;
-
-// Colors 2
-$color-bg: white;
-$color-main: color($grey, 800);
-$color-main-soft: color($grey, 500);
-$color-secondary: color($grey, 700);
-$color-accent: color($orange, 400);
-
 // Colors opt 2 / dark-grey
 $color-bg: #1d262b;
 $color-main: color($grey, 100);
@@ -38,14 +23,6 @@ $color-secondary: color($grey, 300);
 $color-secondary-soft: color($grey, 400);
 $color-accent: #074c7a;
 $color-strong: color($pink, a400);
-
-// // Colors opt 3 / blue
-// $color-bg: color($cyan, 700);
-// $color-main: white;
-// $color-main-soft: color($cyan, 100);
-// $color-secondary: color($cyan, 200);
-// $color-accent: color($cyan, a200);
-// $color-accent: $color-main-soft;
 
 // Font Colors
 $base-background-color:  $color-bg;

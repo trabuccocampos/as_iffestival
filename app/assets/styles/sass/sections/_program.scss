@@ -1,0 +1,39 @@
+.program__intro {
+  @include span-columns(12);
+
+  text-align: center;
+  border-top: solid 1px lighten($color-bg, 20%);
+  padding-top: $base-spacing*1.2;
+  padding-bottom: $base-spacing;
+
+  h3 {
+    color: $color-strong;
+    margin-bottom: 5px;
+  }
+}
+.program__list {
+  @include span-columns(12);
+}
+.film {
+  @include outer-container;
+  border-top: solid 1px lighten($color-bg, 20%);
+  padding-top: $base-spacing;
+  padding-bottom: $base-spacing;
+}
+.film--image {
+  @include span-columns(5);
+  @include media($mobile) {
+    @include span-columns(4);
+  };
+}
+
+.film--info {
+  @include span-columns(7);
+  @include media($mobile) {
+    @include span-columns(4);
+  };
+}
+
+.film--runtime {
+  font-size: .8em;
+}

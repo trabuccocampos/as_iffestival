@@ -1,0 +1,28 @@
+Title: Opening Night
+
+----
+
+Quote: As iFF it’s easier to get to Cannes than Irvington-On-Hudson
+
+----
+
+Text: 
+
+### November 13th at 7pm
+
+Runtime: 103 minutes
+
+----
+
+Films: 
+
+- 
+  title: Film 1
+  description: A riverting watch
+  runtime: 90 minutes
+  image: 01cf57d26972470d9986108ccebeaed1.jpg
+- 
+  title: Film 2
+  description: Hello
+  runtime: 12 minutes
+  image: film1.jpg

@@ -17,7 +17,7 @@ var $ = require('gulp-load-plugins')(),
     concat = require('gulp-concat');
 
 var paths = {
-  scss: './app/assets/styles/sass/*.scss',
+  scss: './app/assets/styles/sass/**/*.scss',
   js: './app/assets/scripts/**/*.js',
   images: './app/assets/images/*'
 };
@@ -156,7 +156,7 @@ gulp.task('watch', ['serve'], function () {
         // 'app/content/**/*'
     ], reload);
 
-    gulp.watch('./app/assets/styles/**/**/**/*.scss', ['styles-build']);
+    gulp.watch('./app/assets/styles/sass/**/*.scss', ['styles-build']);
     gulp.watch('./app/assets/scripts/**/*.js', ['scripts']);
     gulp.watch('./app/assets/images/**/*', ['images']);
     // gulp.watch('app/content/**/*', ['content']);
