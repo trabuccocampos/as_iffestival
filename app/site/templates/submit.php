@@ -26,8 +26,14 @@
     </ol>
     <section class="submit__awards">
       <article class="submit__awards--callout">
-        <a href="https://filmfreeway.com/festivals/7912" class="btn btn--lg" target="_blank">Submit your film today &rarr;</a>
-        <p>takes you to <strong>FilmFreeway</strong></p>
+        <div class="submit__awards--callout__link">
+          <a href="https://filmfreeway.com/festivals/7912" class="btn" target="_blank">Submit your film &rarr;</a>
+          <p>takes you to <strong>FilmFreeway</strong></p>
+        </div>
+        <div class="submit__awards--callout__link">
+          <a href="http://www.withoutabox.com/login/15244" class="btn" target="_blank">Submit your film &rarr;</a>
+          <p>takes you to <strong>WihoutABox</strong></p>
+        </div>
       </article>
       <article class="submit__awards--audience">
         <h4>Audience Awards</h4>

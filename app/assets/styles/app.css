@@ -1548,12 +1548,37 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px; }
 
+.submit__awards--callout__link {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 8.5298%;
+  display: block; }
+  .submit__awards--callout__link:last-child {
+    margin-right: 0; }
+  .submit__awards--callout__link a {
+    padding: 0.6em 1em 0.65em; }
+  @media screen and (max-width: 568px) {
+    .submit__awards--callout__link {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-left: 0%;
+      padding-top: 0;
+      margin-bottom: 2em; }
+      .submit__awards--callout__link:last-child {
+        margin-right: 0; }
+      .submit__awards--callout__link a {
+        font-size: 1.3em; } }
+
 .submit__awards--audience {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-left: 25.58941%; }
+  width: 31.76157%;
+  margin-left: 17.05961%; }
   .submit__awards--audience:last-child {
     margin-right: 0; }
 
@@ -1561,7 +1586,7 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%; }
+  width: 31.76157%; }
   .submit__awards--jury:last-child {
     margin-right: 0; }
 
@@ -1706,6 +1731,22 @@ footer {
       margin-right: 7.42297%;
       width: 100%; }
       .film--image:last-child {
+        margin-right: 0; } }
+
+.edition__wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .edition__wrapper:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 568px) {
+    .edition__wrapper {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .edition__wrapper:last-child {
         margin-right: 0; } }
 
 .film--info {

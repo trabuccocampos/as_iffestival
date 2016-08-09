@@ -1,0 +1,20 @@
+Title: Past Editions
+
+----
+
+Quote: 
+
+----
+
+Text: 
+
+----
+
+Editions: 
+
+- 
+  title: title
+  theme:
+  description: test
+  link: /submit
+  image: screenshot-2016-08-02-08.24.58.png

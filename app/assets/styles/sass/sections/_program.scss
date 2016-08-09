@@ -26,7 +26,12 @@
     @include span-columns(4);
   };
 }
-
+.edition__wrapper {
+  @include span-columns(4);
+  @include media($mobile) {
+    @include span-columns(4);
+  };
+}
 .film--info {
   @include span-columns(7);
   @include media($mobile) {
