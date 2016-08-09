@@ -14,7 +14,7 @@ Editions:
 
 - 
   title: title
-  theme:
+  theme: ""
   description: test
-  link: /submit
+  link: past-editions/program
   image: screenshot-2016-08-02-08.24.58.png

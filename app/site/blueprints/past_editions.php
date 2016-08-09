@@ -1,7 +1,11 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Past Editions
-pages: true
+pages:
+  template: program
+options:
+  template: false
+  delete: false
 files: true
 fields:
   title:

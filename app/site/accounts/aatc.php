@@ -11,6 +11,5 @@ role: admin
 history:
   - past-editions
   - home
-  - program
   - about
   - advisory

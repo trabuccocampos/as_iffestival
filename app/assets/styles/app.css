@@ -1197,7 +1197,7 @@ footer {
         margin-right: 0; } }
 
 .intro__opening {
-  font-weight: 400;
+  font-weight: 900;
   font-size: 3em;
   line-height: 1.1;
   margin-top: 7vh; }
@@ -1733,20 +1733,20 @@ footer {
       .film--image:last-child {
         margin-right: 0; } }
 
-.edition__wrapper {
+.edition {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%; }
-  .edition__wrapper:last-child {
+  .edition:last-child {
     margin-right: 0; }
   @media screen and (max-width: 568px) {
-    .edition__wrapper {
+    .edition {
       float: left;
       display: block;
       margin-right: 7.42297%;
       width: 100%; }
-      .edition__wrapper:last-child {
+      .edition:last-child {
         margin-right: 0; } }
 
 .film--info {
