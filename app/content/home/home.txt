@@ -2,14 +2,11 @@ Title: Home
 
 ----
 
-Text: 
-
-a love letter
-*(not necessarily romantic)*
+Text: *As iFF you can’t&ensp;&uarr;*
 
 ----
 
-Eventdate: Nov 13th at 7:30pm
+Eventdate: April 22 at 7:30pm
 
 ----
 
@@ -25,4 +22,4 @@ Submit: Submit your film &rarr;
 
 ----
 
-Coverimg: web_as_iff_20160217.png
+Coverimg: Spring17_AsiFF_ITHT.png

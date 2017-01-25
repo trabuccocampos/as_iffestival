@@ -4,30 +4,6 @@
   <main class="main" role="main" id="pjax-container">
     <?php foreach($page->coverImg()->toStructure() as $coverImg): ?>
       <?php if($image = $coverImg->image()->toFile()): ?>
-      <style scoped>
-        .coverImg {
-          width: 100vw;
-          height: 250px;
-          margin-left: -2.5vw;
-        }
-        @media (max-width:768px) {
-          .coverImg {
-            width:105%;
-            height: 25vh;
-          }
-        }
-        @media (min-width:1200px) {
-          .coverImg {
-            height: 40vh;
-            margin-left: -11vw;
-          }
-        }
-        @media (min-width:1600px) {
-          .coverImg {
-            margin-left: -23vw;
-          }
-        }
-      </style>
       <section class="coverImg" style="background: url(<?php echo $image->url() ?>) no-repeat center center; -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -37,10 +13,10 @@
 <?php endforeach ?>
 
       <section class="intro">
-      <article><h1 class="intro__opening">
-        <?php echo $page->text()->kirbytext() ?>
-      </h1></article>
-    </section>
+        <article><h1 class="intro__opening">
+          <?php echo $page->text()->kirbytext() ?>
+        </h1></article>
+      </section>
 
     <ul class="event">
       <li class="event__date">

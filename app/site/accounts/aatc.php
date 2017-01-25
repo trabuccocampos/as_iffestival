@@ -9,7 +9,7 @@ password: >
 language: en
 role: admin
 history:
-  - past-editions
   - home
+  - past-editions
   - about
   - advisory

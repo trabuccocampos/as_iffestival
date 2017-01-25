@@ -1,3 +1,55 @@
+// .coverImg {
+//   width: 100vw;
+//   height: 250px;
+//   margin-left: -2.5vw;
+// }
+// @media (max-width:768px) {
+//   .coverImg {
+//     width:105%;
+//     height: 25vh;
+//   }
+// }
+// @media (min-width:1200px) {
+//   .coverImg {
+//     height: 40vh;
+//     margin-left: -11vw;
+//   }
+// }
+// @media (min-width:1600px) {
+//   .coverImg {
+//     margin-left: -23vw;
+//   }
+// }
+
+.coverImg {
+  width: 100vw;
+  height: 30vh;
+  margin-left: -2.5vw;
+
+  @include media($mobile) {
+    height: 12vh;
+  }
+  @media (min-width:570px) and (max-width:800px) {
+    height: 25vh;
+  }
+  @media (min-width:1200px) {
+    height: 40vh;
+    margin-left: -6vw;
+  }
+  @media (min-width:1300px) {
+    height: 40vh;
+    margin-left: -11vw;
+  }
+  @media (min-width:1400px) {
+    height: 40vh;
+    margin-left: -13vw;
+  }
+  @media (min-width:1600px) {
+    height: 40vh;
+    margin-left: -21vw;
+  }
+}
+
 .intro {
   @include span-columns(10);
   @include shift(1);

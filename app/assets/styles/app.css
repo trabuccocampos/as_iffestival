@@ -266,7 +266,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -391,9 +392,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
@@ -448,11 +447,7 @@ button {
   user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  button:hover,
-  button:focus, input[type="button"]:hover,
-  input[type="button"]:focus, input[type="reset"]:hover,
-  input[type="reset"]:focus, input[type="submit"]:hover,
-  input[type="submit"]:focus,
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
     background-color: #bababa;
@@ -606,12 +601,9 @@ a {
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear; }
-  a:active,
-  a:focus,
-  a:hover {
+  a:active, a:focus, a:hover {
     color: #bababa; }
-  a:active,
-  a:focus {
+  a:active, a:focus {
     outline: none; }
 
 hr {
@@ -778,7 +770,7 @@ header {
   @media screen and (max-width: 568px) {
     .logo {
       width: 60%;
-      margin: 1em auto 0.6em;
+      margin: 1em auto .6em;
       float: none; } }
 
 .logo--mark {
@@ -836,7 +828,7 @@ nav li a.active {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   border: 3px solid #074c7a;
-  padding: 0.3em 0.5em 0.35em;
+  padding: .3em .5em .35em;
   border-radius: 0.3em;
   font-size: 1.5em;
   color: #f5f5f5;
@@ -846,7 +838,7 @@ nav li a.active {
     color: white; }
 
 .btn--lg {
-  padding: 0.6em 2em 0.65em; }
+  padding: .6em 2em .65em; }
 
 h1 {
   font-size: 3.5em;
@@ -942,7 +934,7 @@ a.link {
     background-color: #f5f5f5;
     border-bottom-color: rgba(7, 76, 122, 0);
     color: #074c7a;
-    padding: 0.5em 0.8em 0.4em; }
+    padding: .5em .8em .4em; }
     a.link:hover:after {
       -webkit-transition: all 0.6s ease;
       transition: all 0.6s ease;
@@ -1178,6 +1170,33 @@ footer {
     font-size: .75em;
     margin-bottom: 3em; } }
 
+.coverImg {
+  width: 100vw;
+  height: 30vh;
+  margin-left: -2.5vw; }
+  @media screen and (max-width: 568px) {
+    .coverImg {
+      height: 12vh; } }
+  @media (min-width: 570px) and (max-width: 800px) {
+    .coverImg {
+      height: 25vh; } }
+  @media (min-width: 1200px) {
+    .coverImg {
+      height: 40vh;
+      margin-left: -6vw; } }
+  @media (min-width: 1300px) {
+    .coverImg {
+      height: 40vh;
+      margin-left: -11vw; } }
+  @media (min-width: 1400px) {
+    .coverImg {
+      height: 40vh;
+      margin-left: -13vw; } }
+  @media (min-width: 1600px) {
+    .coverImg {
+      height: 40vh;
+      margin-left: -21vw; } }
+
 .intro {
   float: left;
   display: block;
@@ -1406,7 +1425,7 @@ footer {
 .advisor--highlights__single {
   display: inline;
   background: rgba(29, 38, 43, 0.4);
-  padding: 0.3em 0.5em 0.3em;
+  padding: 0.3em .5em .3em;
   font-size: .9em;
   color: #e0e0e0;
   white-space: nowrap; }
@@ -1558,7 +1577,7 @@ footer {
   .submit__awards--callout__link:last-child {
     margin-right: 0; }
   .submit__awards--callout__link a {
-    padding: 0.6em 1em 0.65em; }
+    padding: .6em 1em .65em; }
   @media screen and (max-width: 568px) {
     .submit__awards--callout__link {
       float: left;
@@ -1737,7 +1756,7 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 23.23176%; }
   .edition:last-child {
     margin-right: 0; }
   @media screen and (max-width: 568px) {
@@ -1745,7 +1764,7 @@ footer {
       float: left;
       display: block;
       margin-right: 7.42297%;
-      width: 100%; }
+      width: 46.28851%; }
       .edition:last-child {
         margin-right: 0; } }
 
